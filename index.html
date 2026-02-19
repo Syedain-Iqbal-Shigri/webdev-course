@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WebDev Course — Master the Modern Web</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- ───────── NAV ───────── -->
+  <nav class="nav">
+    <div class="nav-logo">webdev<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#curriculum">Curriculum</a></li>
+      <li><a href="#stack">Tech Stack</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+    <a href="#start" class="nav-cta">Start Free</a>
+  </nav>
+
+  <!-- ───────── HERO ───────── -->
+  <header class="hero" id="home">
+    <div class="hero-tag"><span class="dot"></span> Now enrolling · Cohort 04</div>
+    <h1 class="hero-title">
+      <span class="line" data-text="Build">Build</span>
+      <span class="line accent" data-text="Anything">Anything</span>
+      <span class="line" data-text="on the Web">on the Web</span>
+    </h1>
+    <p class="hero-sub">
+      A zero-to-hero web development course. From your first <code>&lt;div&gt;</code> 
+      to shipping production apps — in one place.
+    </p>
+    <div class="hero-actions">
+      <a href="#curriculum" class="btn btn-primary">View Curriculum</a>
+      <a href="#projects" class="btn btn-ghost">See Projects →</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num" data-count="120">0</span><span class="stat-label">Hours of Content</span></div>
+      <div class="stat"><span class="stat-num" data-count="18">0</span><span class="stat-label">Real Projects</span></div>
+      <div class="stat"><span class="stat-num" data-count="6">0</span><span class="stat-label">Modules</span></div>
+    </div>
+    <div class="scroll-hint">scroll ↓</div>
+  </header>
+
+  <!-- ───────── TICKER ───────── -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>HTML</span><span>·</span>
+      <span>CSS</span><span>·</span>
+      <span>JavaScript</span><span>·</span>
+      <span>Tailwind CSS</span><span>·</span>
+      <span>React</span><span>·</span>
+      <span>Node.js</span><span>·</span>
+      <span>Git & GitHub</span><span>·</span>
+      <span>REST APIs</span><span>·</span>
+      <span>Responsive Design</span><span>·</span>
+      <span>HTML</span><span>·</span>
+      <span>CSS</span><span>·</span>
+      <span>JavaScript</span><span>·</span>
+      <span>Tailwind CSS</span><span>·</span>
+      <span>React</span><span>·</span>
+      <span>Node.js</span><span>·</span>
+      <span>Git & GitHub</span><span>·</span>
+      <span>REST APIs</span><span>·</span>
+      <span>Responsive Design</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- ───────── CURRICULUM ───────── -->
+  <section class="curriculum" id="curriculum">
+    <div class="section-header">
+      <p class="section-tag">/ curriculum</p>
+      <h2>6 Modules.<br/>Zero Fluff.</h2>
+    </div>
+
+    <div class="modules">
+
+      <div class="module" data-num="01">
+        <div class="module-head">
+          <span class="module-num">01</span>
+          <h3>Foundations</h3>
+          <span class="module-duration">3 weeks</span>
+        </div>
+        <p>HTML semantics, CSS box model, Flexbox & Grid, responsive layouts, and accessibility basics.</p>
+        <ul class="module-topics">
+          <li>HTML5 Semantic Elements</li>
+          <li>CSS Flexbox & Grid</li>
+          <li>Media Queries</li>
+          <li>CSS Variables & Custom Properties</li>
+        </ul>
+      </div>
+
+      <div class="module" data-num="02">
+        <div class="module-head">
+          <span class="module-num">02</span>
+          <h3>JavaScript Core</h3>
+          <span class="module-duration">4 weeks</span>
+        </div>
+        <p>Modern JS from scratch — ES6+, DOM manipulation, async/await, fetch API, and real browser APIs.</p>
+        <ul class="module-topics">
+          <li>ES6+ Syntax</li>
+          <li>DOM & Events</li>
+          <li>Promises & Async/Await</li>
+          <li>Local Storage & APIs</li>
+        </ul>
+      </div>
+
+      <div class="module" data-num="03">
+        <div class="module-head">
+          <span class="module-num">03</span>
+          <h3>Tailwind CSS</h3>
+          <span class="module-duration">2 weeks</span>
+        </div>
+        <p>Utility-first styling done right. Build fast, beautiful UIs without writing a single custom class.</p>
+        <ul class="module-topics">
+          <li>Utility Classes</li>
+          <li>Dark Mode</li>
+          <li>Responsive Variants</li>
+          <li>Custom Config & Plugins</li>
+        </ul>
+      </div>
+
+      <div class="module" data-num="04">
+        <div class="module-head">
+          <span class="module-num">04</span>
+          <h3>React</h3>
+          <span class="module-duration">5 weeks</span>
+        </div>
+        <p>Components, hooks, state management, React Router, and building complete SPA applications.</p>
+        <ul class="module-topics">
+          <li>JSX & Components</li>
+          <li>useState & useEffect</li>
+          <li>React Router</li>
+          <li>Context & Custom Hooks</li>
+        </ul>
+      </div>
+
+      <div class="module" data-num="05">
+        <div class="module-head">
+          <span class="module-num">05</span>
+          <h3>Node.js & Backend</h3>
+          <span class="module-duration">4 weeks</span>
+        </div>
+        <p>Build REST APIs with Express, connect to databases, handle auth, and deploy your first backend.</p>
+        <ul class="module-topics">
+          <li>Express.js</li>
+          <li>MongoDB & Mongoose</li>
+          <li>JWT Authentication</li>
+          <li>REST API Design</li>
+        </ul>
+      </div>
+
+      <div class="module" data-num="06">
+        <div class="module-head">
+          <span class="module-num">06</span>
+          <h3>Deployment & Git</h3>
+          <span class="module-duration">2 weeks</span>
+        </div>
+        <p>Git workflows, GitHub, CI/CD pipelines, and deploying to Vercel, Netlify and more.</p>
+        <ul class="module-topics">
+          <li>Git Branching & Merging</li>
+          <li>GitHub Actions</li>
+          <li>Vercel & Netlify</li>
+          <li>Environment Variables</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ───────── TECH STACK ───────── -->
+  <section class="stack" id="stack">
+    <div class="section-header">
+      <p class="section-tag">/ tech stack</p>
+      <h2>The Tools<br/>You'll Master</h2>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-item" style="--i:0"><div class="stack-icon">⟨/⟩</div><span>HTML5</span></div>
+      <div class="stack-item" style="--i:1"><div class="stack-icon">#</div><span>CSS3</span></div>
+      <div class="stack-item" style="--i:2"><div class="stack-icon">JS</div><span>JavaScript</span></div>
+      <div class="stack-item" style="--i:3"><div class="stack-icon">⚡</div><span>Tailwind</span></div>
+      <div class="stack-item" style="--i:4"><div class="stack-icon">⚛</div><span>React</span></div>
+      <div class="stack-item" style="--i:5"><div class="stack-icon">N</div><span>Node.js</span></div>
+      <div class="stack-item" style="--i:6"><div class="stack-icon">🍃</div><span>MongoDB</span></div>
+      <div class="stack-item" style="--i:7"><div class="stack-icon">◆</div><span>Git</span></div>
+    </div>
+  </section>
+
+  <!-- ───────── PROJECTS ───────── -->
+  <section class="projects" id="projects">
+    <div class="section-header">
+      <p class="section-tag">/ projects</p>
+      <h2>Ship Real<br/>Things.</h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card" style="--hue: 180">
+        <span class="project-tag">Module 01</span>
+        <h4>Portfolio Website</h4>
+        <p>Build and deploy your personal portfolio from scratch using only HTML & CSS.</p>
+        <div class="project-tech"><span>HTML</span><span>CSS</span></div>
+      </div>
+      <div class="project-card" style="--hue: 40">
+        <span class="project-tag">Module 02</span>
+        <h4>Weather App</h4>
+        <p>Fetch real weather data from a public API and display it with dynamic JS rendering.</p>
+        <div class="project-tech"><span>JS</span><span>API</span></div>
+      </div>
+      <div class="project-card" style="--hue: 290">
+        <span class="project-tag">Module 03</span>
+        <h4>Dashboard UI</h4>
+        <p>Replicate a modern SaaS dashboard layout using Tailwind CSS utility classes only.</p>
+        <div class="project-tech"><span>Tailwind</span></div>
+      </div>
+      <div class="project-card" style="--hue: 10">
+        <span class="project-tag">Module 04</span>
+        <h4>Task Manager App</h4>
+        <p>Full CRUD task manager built in React with local persistence and drag-and-drop.</p>
+        <div class="project-tech"><span>React</span><span>Hooks</span></div>
+      </div>
+      <div class="project-card" style="--hue: 120">
+        <span class="project-tag">Module 05</span>
+        <h4>REST API + Auth</h4>
+        <p>Build a secure user authentication API with Express, MongoDB and JWT tokens.</p>
+        <div class="project-tech"><span>Node</span><span>MongoDB</span></div>
+      </div>
+      <div class="project-card" style="--hue: 200">
+        <span class="project-tag">Capstone</span>
+        <h4>Full-Stack App</h4>
+        <p>End-to-end full-stack application — React frontend, Node backend, deployed on Vercel.</p>
+        <div class="project-tech"><span>React</span><span>Node</span><span>Deploy</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── CTA ───────── -->
+  <section class="cta" id="start">
+    <div class="cta-inner">
+      <p class="cta-sub">Ready to start?</p>
+      <h2>Your first commit<br/>starts here.</h2>
+      <a href="https://github.com" class="btn btn-primary btn-lg">Fork on GitHub</a>
+    </div>
+    <div class="cta-bg-text">webdev</div>
+  </section>
+
+  <!-- ───────── FOOTER ───────── -->
+  <footer class="footer">
+    <div class="footer-logo">webdev<span>.</span></div>
+    <p>Built with HTML, CSS & JS · Open Source</p>
+    <a href="https://github.com" class="footer-gh">GitHub ↗</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
