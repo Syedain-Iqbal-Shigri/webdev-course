@@ -29,24 +29,6 @@ webdev-course/
 ├── style.css       # All styles (CSS variables, animations, layout)
 ├── script.js       # Cursor, counters, scroll reveal, interactions
 └── README.md       # You're reading it
-```
-
----
-
-## 🚀 Getting Started
-
-### Option 1: Open directly
-```bash
-git clone https://github.com/YOUR_USERNAME/webdev-course.git
-cd webdev-course
-open index.html   # macOS
-# or double-click index.html in Windows/Linux
-```
-
-### Option 2: Use VS Code Live Server
-1. Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension
-2. Right-click `index.html` → **Open with Live Server**
-3. That's it 🎉
 
 ---
 
